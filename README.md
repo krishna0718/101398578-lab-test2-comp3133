@@ -25,10 +25,10 @@ App hosted on **Vercel**:
 
 ##  How to Run Locally
 
-git clone https://github.com/krishna0718/101398578-lab-test2-comp3133.git
-cd 101398578-lab-test2-comp3133
-npm install
-ng serve
+- git clone https://github.com/krishna0718/101398578-lab-test2-comp3133.git     
+- cd 101398578-lab-test2-comp3133
+- npm install
+- ng serve
 
 
 ## API References
