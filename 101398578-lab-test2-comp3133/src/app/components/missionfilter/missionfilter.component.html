@@ -1,0 +1,14 @@
+<mat-form-field style="width: 100%">
+  <mat-label>Enter Launch Year</mat-label>
+  <input matInput [(ngModel)]="year" placeholder="e.g., 2020">
+</mat-form-field>
+<button mat-raised-button color="primary" (click)="filterByYear()">Search</button>
+
+<div *ngFor="let launch of filteredLaunches">
+  <mat-card style="margin: 10px">
+    <mat-card-title>{{ launch.mission_name }} ({{ launch.launch_year }})</mat-card-title>
+    <mat-card-content>
+      <p>{{ launch.details || 'No details.' }}</p>
+    </mat-card-content>
+  </mat-card>
+</div>
